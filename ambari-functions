@@ -1,6 +1,7 @@
 :<<USAGE
 ########################################
-curl -Lo .amb j.mp/docker-ambari && . .amb
+# NOTE: bash only
+curl -Lo .amb https://raw.githubusercontent.com/houjunchen/docker-ambari/2.0.0/ambari-functions && . .amb
 ########################################
 
 full documentation: https://github.com/sequenceiq/docker-ambari
